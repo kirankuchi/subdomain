@@ -4,7 +4,7 @@ pipeline {
     
     stage('hello') {
       steps {
-        sh 'php cpanel.php'
+        bat 'php cpanel.php'
       }
     }
   }
