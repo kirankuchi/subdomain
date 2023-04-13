@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'php d:\cpanel.php'
+        sh 'php cpanel.php'
       }
     }
   }
